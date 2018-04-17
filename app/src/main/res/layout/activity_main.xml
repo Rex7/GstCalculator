@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/myCalculator"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/appbar" />
+
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayout"
+        android:layout_below="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:inputType="number" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/percentage5"
+        android:textSize="30sp"
+        android:text="@string/percentage_5"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/inputLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:backgroundTint="#de314e"
+        />
+
+    <Button
+        android:id="@+id/percentage12"
+        android:textSize="30sp"
+        android:text="@string/percentage_12"
+        android:layout_toRightOf="@+id/percentage5"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/inputLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:id="@+id/percentage18"
+        android:textSize="30sp"
+        android:text="@string/percentage_18"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/inputLayout"
+
+        android:layout_toRightOf="@+id/percentage12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:id="@+id/percentage28"
+        android:textSize="30sp"
+        android:text="@string/percentage_28"
+        android:layout_toRightOf="@+id/percentage18"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/inputLayout"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        />
+    <Button
+        android:id="@+id/btn7"
+        android:text="@string/seven"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/percentage5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"/>
+    <Button
+        android:id="@+id/btn8"
+        android:text="@string/eight"
+        android:layout_marginTop="5dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/percentage5"
+        android:layout_toRightOf="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+
+        />
+    <Button
+        android:id="@+id/btn9"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/nine"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp"
+        android:layout_toRightOf="@+id/btn8"
+        android:layout_below="@+id/percentage5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/divButton"
+        android:layout_marginTop="5dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/divide"
+        android:textSize="30sp"
+        android:layout_below="@+id/percentage5"
+        android:layout_toRightOf="@+id/btn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_marginLeft="3dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/four"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn7"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn5"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/five"
+
+        android:textSize="30sp"
+        android:layout_below="@+id/btn9"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn6"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/six"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btn9"
+        android:layout_toRightOf="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnmul"
+
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/multiply"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn9"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_marginLeft="3dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/one"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn4"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/two"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn4"
+        android:layout_toRightOf="@+id/btn1"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/three"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn4"
+        android:layout_toRightOf="@+id/btn2"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnMinus"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/minus"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn5"
+        android:layout_toRightOf="@+id/btn3"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/dot"
+        android:layout_marginLeft="3dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/dot"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn1"
+        android:gravity="center"
+
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn0"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/zero"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn1"
+        android:layout_toRightOf="@+id/dot"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/equal"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/equal"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn1"
+        android:layout_toRightOf="@+id/btn0"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/plus"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/plus"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn1"
+        android:layout_toRightOf="@+id/equal"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/clear"
+        android:text="@string/clear"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textSize="22sp"
+        android:layout_below="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/equal"/>
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.gstinfo.MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="What is GST?
+The Goods and Services Tax (GST) is a value-added tax levied on most goods and services sold for domestic consumption. The GST is paid by consumers, but it is remitted to the government by the businesses selling the goods and services. ... Also referred to as Value-Added Tax (VAT) in some countries.
+
+Good and Service Tax Drfinition:
+The tax came into effect from July 1, 2017 through the implementation of One Hundred and First Amendment of the Constitution of India by the Modi government. The tax replaced existing multiple cascading taxes levied by the central and state governments. The tax rates, rules and regulations are governed by the Goods and Services Tax Council which comprises finance ministers of centre and all the states. GST simplified a slew of indirect taxes with a unified tax and is therefore expected to dramatically reshape the country's 2.4 trillion dollar economy
+
+OBJECTIVES OF GST
+The Goods and Services Tax which is being implemented from 1st July, 2017 is proposed to be a unified tax for the entire nation. The intended objective of GST 2017 is to replace a lot of other indirect and direct taxes like the VAT, service tax, luxury tax etc. GST is aimed at being comprehensive with most of the goods and services included in the GST bill but alcohol and petrol exempted. GST rate is proposed to be 27% which is far higher than the global standard of 16.4% for similar taxes. Our finance minister, Mr. Arun Jaitley on several occasions has mentioned that the rate is way too high, whereas some of the states want the rate to be still higher. In this article, we will look at the primary objectives of GST 2017 bill.
+
+Worldwide GST
+France was the first country to implement GST to reduce tax- evasion. Since then, more than 140 countries have implemented GST with some countries having Dual-GST (e.g. Brazil, Canada etc.) model. India has chosen the Canadian model of dual GST.
+
+How GST Works:
+GST is a type of value added tax and a proposed comprehensive indirect tax levy on manufacture, sale and consumption of goods as well as services at the national level. It will replace all indirect taxes levied on goods and services by the Indian central and state governments. Further, the Goods and Service Tax (GST) is considered to be one of the biggest reforms in India’s indirect tax structure since the economy began to be opened up twenty five years ago. In this article, we look at how GST differs from the current regimes and how it will work.
+
+Advantages of Gst:
+Previously, several taxes were levied on the same product that increased the price of the product. With the passing of GST, it will eliminate the tax on tax effect by providing credit for the taxes paid. Under the previous regime, classification of products into different categories caused a lot of confusion and was a litigious issue. GST aims to solve this issue by bringing in Harmonized System of Nomenclature or HSN, which is an eight-digit code to identify products according to international standards. Instead of several different taxes being levied by state and central government, GST proposes to impose only one tax. GST will replace several hidden taxes that were imposed by state governments and it will improve ease of doing business.
+
+Disadvantage of GST:
+•	According to the experts, terms such as GST which includes CGST, SGST, and IGST is nothing but just a new name in accordance with the existing tax systems. The Service Tax which stood at 15% in the previous regime, has now been replaced with GST at 18%. As such many services have become costlier with telecom, airline and banking affected majorly. In fact, insurance and petroleum are also said to be majorly affected by the enactment of GST Tax. Post GST implementation, the first few instances of application have resulted in high tax outgo for businesses. Businesses are trying to claim the credit of input tax but several cases of mismatch of data are coming up. As a result, there is chaos among the tax filers.
+
+GST Bill Approval Process:
+An empowered union committee was set up by the [Third Vajpayee ministry|Dishant Chauhan administration] in 2000 to streamline the GST model to be adopted and to develop the required back-end infrastructure that would be needed for its implementation In his budget speech on 28 February 2006, P. Chidambaram, the Finance Minister, announced the target date for implementation of GST to be 1 April 2010 and formed another empowered committee of State Finance Ministers to design the road map. The committee submitted its report to the government in April 2008 and released its First Discussion Paper on GST in India in 2009. A dual GST module for the country has been proposed by the EC. This dual GST model has been accepted by centre. Under this model GST have two components viz. the Central GST to be levied and collected by the Centre and the State GST to be levied and collected by the respective States. Central Excise duty, additional excise duty, Service Tax, and additional duty of customs (equivalent to excise), State VAT, entertainment tax, taxes on lotteries, betting and gambling and entry tax (not levied by local bodies) would be subsumed within GST. Other taxes which will be subsumed with GST are Octroi, entry tax and luxury tax thus making it a single indirect tax in India.
+
+Goods and Services Tax Bill:
+The tax structure will be made lean and simple.The entire Indian market will be a unified market which may translate into lower business costs. It can facilitate seamless movement of goods across states and reduce the transaction costs of businesses.It is good for export oriented businesses. Because it is not applied for goods/services which are exported out of India.In the long run, the lower tax burden could translate into lower prices on goods for consumers.The Suppliers, manufacturers, wholesalers and retailers are able to recover GST incurred on input costs as tax credits. This reduces the cost of doing business, thus enabling fairer prices for consumers.It can bring more transparency and better compliance.More business entities will come under the tax system thus widening the tax base. This may lead to better and more tax revenue collections.Companies which are under unorganized sector will come under tax regime.
+
+Key Feature of GST:
+The Central GST and the State GST would be applicable to all transactions of goods and services made for a consideration except the exempted goods and services, goods which are outside the purview of GST and the transactions which are below the prescribed threshold limits. The Central GST and State GST should be levied on common and identical tax base. The tax base should comprehensively extend over all goods and services ( with no distinction being made between treatment of goods and services) up to the final consumer point.It is recommended that the Centre and States should adopt a consumption based GST with no distinction being made between raw materials and capital goods , in avaliment of Input tax credit. GST is based on destination principle, thus tax base will shift from production to consumption of goods. The taxable event is Consumption of goods or services. As a result, revenue will accrue to the state in which consumption takes place or deemed to take place.
+
+The Impact:
+GST the biggest tax reform in India founded on the notion of “one nation, one market, one tax” is finally here. The moment that the Indian government was waiting for a decade has finally arrived. The single biggest indirect tax regime has kicked into force, dismantling all the inter-state barriers with respect to trade. The GST rollout, with a single stroke, has converted India into a unified market of 1.3 billion citizens. Fundamentally, the $2.4-trillion economy is attempting to transform itself by doing away with the internal tariff barriers and subsuming central, state and local taxes into a unified GST.GST the biggest tax reform in India founded on the notion of “one nation, one market, one tax” is finally here. The moment that the Indian government was waiting for a decade has finally arrived. The single biggest indirect tax regime has kicked into force, dismantling all the inter-state barriers with respect to trade. The GST rollout, with a single stroke, has converted India into a unified market of 1.3 billion citizens. Fundamentally, the $2.4-trillion economy is attempting to transform itself by doing away with the internal tariff barriers and subsuming central, state and local taxes into a unified GST." />
+
+</ScrollView>
